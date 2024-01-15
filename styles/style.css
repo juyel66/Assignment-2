@@ -104,7 +104,6 @@ div a {
     width: 174px;
     height: 52px;
     flex-shrink: 0;
-    border: 5px solid red ;
 
 }
 
@@ -117,7 +116,6 @@ div a {
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-    border: 2px solid red;
     margin-top: 40px;
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
@@ -150,7 +148,6 @@ background: rgba(255, 255, 255, 0.30);
 
 .main-text-part {
     padding-top: 30px;
-    border: 2px solid red;
 }
 
 
