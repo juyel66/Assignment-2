@@ -104,12 +104,13 @@ div a {
     width: 174px;
     height: 52px;
     flex-shrink: 0;
+    border: 5px solid red ;
 
 }
 
-#go {
+/* #go {
     margin-left: 20px;
-}
+} */
 
 .where-go-when {
     display: inline-flex;
@@ -118,6 +119,9 @@ div a {
     gap: 24px;
     border: 2px solid red;
     margin-top: 40px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
 }
 
 .explore-travel {
