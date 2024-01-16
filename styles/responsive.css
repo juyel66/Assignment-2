@@ -4,68 +4,15 @@
     }
 
 
-    .main-part {
+    .banner-section {
         width: 335px;
         height: 483px;
         flex-shrink: 0;
-    }
-
-    .where-go-when {
-        flex-direction: column;
-        display: inline-flex;
-        flex-direction: column;
-        gap: 0px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.30);
-
-
-
-
-
-
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 
 
     }
-
-    .where-go {
-
-        border-radius: 8px;
-        background: #FFF;
-        width: 174px;
-        /* height: 52px; */
-        flex-shrink: 0;
-        width: 255px;
-        height: 52px;
-        flex-shrink: 0;
-    }
-
-    .explore-travel {
-        color: #FFF;
-        font-family: Mulish;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-
-    }
-
-    .main-part-dec {
-        color: #FFF;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 21px;
-        /* 150% */
-
-    }
-
-
-
-
-
-
 
 
 
@@ -92,15 +39,82 @@
         font-weight: 800;
         line-height: normal;
     }
-    .popular-tour{
+
+    .popular-tour {
         max-width: 320px;
     }
-    .rectangle-4{
-        width: 300px;
-      padding-bottom: 50px;
-      border-radius: 10px;
-      margin-bottom: 150px;
+
+    .rectangle-4 {
+        width: 350px;
+        /* padding-bottom: 50px;
+        border-radius: 10px;
+        margin-bottom: 150px; */
     }
+
+
+    /* <!-- Choose Your Destination Choose Your Destination --> */
+
+
+
+
+    .rows {
+        flex-direction: column;
+        
+
+    }
+
+    .destination {
+        width: 375px;
+        height: 200px;
+
+    
+    }
+
+
+    .first-img{
+        max-width: 350px;
+    }
+
+    .second-img{
+        max-width: 350px;
+    }
+    .small-img-in-row{
+        width: 350px;
+    }
+
+
+
+
+
+    /* why-choose-us */
+
+    .why-choose-us{
+        width: 350px;
+        border: 3px solid red;
+        
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
