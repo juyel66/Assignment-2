@@ -239,31 +239,85 @@ div a {
 
 
 
-.why-choose-us{
+.why-choose-us {
     text-align: center;
     margin-top: 100px;
 }
 
 
-.card{
+.card {
     display: flex;
     justify-content: space-between;
     margin-left: 130px;
     margin-top: 60px;
 }
-.card-1{
+
+.card-1 {
     background-color: #FBB56333;
     border-radius: 15px;
 }
 
-.card-2{
+.card-2 {
     background-color: #29CEF633;
     margin-right: 120px;
     border-radius: 15px;
 }
-.down-card{
+
+.down-card {
     text-align: center;
     background-color: #E9444433;
     margin: 40px 450px;
     border-radius: 15px;
+}
+
+.discounts-part {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+
+/* A Simple Perfect Place To Get Lost  */
+/* A Simple Perfect Place To Get Lost  */
+/* A Simple Perfect Place To Get Lost  */
+/* A Simple Perfect Place To Get Lost  */
+
+.perfect-place {
+    display: flex;
+    gap: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.a-simple-perfect {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    width: 448px;
+}
+
+.ul1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    width: 518px;
+}
+
+
+
+
+/* newslater section */ /* newslater section */
+/* newslater section */ /* newslater section */
+
+
+
+.newsletter-section{
+    display: flex;
 }
