@@ -90,8 +90,31 @@
 
     .why-choose-us{
         width: 350px;
-        border: 3px solid red;
+        /* border: 3px solid red; */
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 120px;
         
+    }
+
+
+
+    /* card section  */
+    .card{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .card-1{
+        max-width: 350px;
+    }
+    .card-2{ 
+        max-width: 350px;
+
+    }
+    .down-card{
+        max-width: 350px;
+        margin-left: 130px;
     }
 
 
