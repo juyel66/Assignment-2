@@ -85,9 +85,32 @@ div a {
 /* main-part-start */
 
 
+.banner-section{
+    background-image: url("travellll.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin-left: 120px;
+}
+
+.input-section{
+    text-align: center;
+}
+.input-fil{
+    display: inline-flex;
+    /* align-items: flex-start; */
+    gap: 20px;
+}
+
+.banner-title{
+    text-align: center;
+    padding-top: 100px;
+}
 
 
-.main-part {
+
+
+/* .main-part {
 
     background-image: url("travellll.png");
 
@@ -106,10 +129,6 @@ div a {
     flex-shrink: 0;
 
 }
-
-/* #go {
-    margin-left: 20px;
-} */
 
 .where-go-when {
     display: inline-flex;
@@ -148,7 +167,7 @@ div a {
 
 .main-text-part {
     padding-top: 30px;
-}
+} */
 
 
 
