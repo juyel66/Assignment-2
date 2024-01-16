@@ -1,3 +1,5 @@
+
+
 /* Shared Style */
 header,
 main {
@@ -114,36 +116,24 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Main section style start here */
 
 /* section-1 */
 
-/* .section-1 {
+.section-1 {
     width: 100%;
     margin-top: 60px;
+    /* border: 2px solid red; */
     display: flex;
     gap: 150px;
 }
 
 .content-section {
     width: 50%;
-
+    /* border: 1px solid yellowgreen; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
 
 }
 
@@ -170,13 +160,13 @@ ul {
 
 
 
-
+/* tour-section styles */
 
 .tour-section{
     margin-top: 10px;
     width: 100%;
     height: 700px;
-
+    /* border: 2px solid aquamarine; */
     text-align: center;
 }
 .tour-section h2 {
@@ -210,7 +200,7 @@ ul {
 }
 
 
-
+/* section-2 */
 
 .section-2 {
     width: 100%;
@@ -237,7 +227,7 @@ ul {
 }
 
 .images-two {
-
+    /* border: 2px solid brown; */
     display: flex;
     gap: 15px;
     margin-top: 20px;
@@ -246,7 +236,7 @@ ul {
 .text{
     position: absolute;
     top:100px;
- 
+    /* left: 200px; */
     color: #FFF;
     font-size: 2rem;
     font-weight: 800;
@@ -264,7 +254,8 @@ ul {
     position: absolute;
     top:130px;
     left: 100px;
-
+  /* left:-100px ; */
+    /* text-align: center; */
     font-size: 2rem;
     font-weight: 800;
 }
@@ -291,7 +282,7 @@ ul {
     left: 100px;
     font-size: 2rem;
     font-weight: 800;
-
+    /* text-align: center; */
 }
 .text-7{
     position: absolute;
@@ -304,12 +295,14 @@ ul {
 
 .images-two img {
     width: 50%;
+    /* border: 1px solid green; */
 }
 
 .images-three {
     display: flex;
     gap: 13px;
     margin-top: 20px;
+    /* border: 2px solid aqua; */
     position: relative;
 
 }
@@ -339,6 +332,9 @@ ul {
     width: 60%;
 }
 
+
+
+/* section-3 styles here */
 .section-3 {
     margin-top: 60px;
     color: #131318;
@@ -358,6 +354,7 @@ ul {
 
 .flex-card {
     width: 100%;
+    /* border: 2px solid red; */
     display: flex;
     gap: 15px;
 }
@@ -395,6 +392,8 @@ ul {
 
 
 
+/* section-4 style */
+
 .section-4{
     margin: 0 auto;
     width:100%;
@@ -404,7 +403,7 @@ ul {
     background-repeat: no-repeat;
     border-radius: 16px;
     box-sizing: border-box;
-
+    /* border: 2px solid rgb(16, 223, 136); */
     position: relative;
 
 }
@@ -439,16 +438,18 @@ padding: 40px  40px ;
 
 
 
+/* section-7 styles */
 .section-7{
     margin-top: 60px;
     width: 100%;
+    /* border: 2px solid rgb(16, 223, 136); */
     display: flex;
     gap: 9%;
 }
 .section-7-content{
     width: 40%;
     
-
+    /* border: 1px solid red; */
 }
 .section-7-content h2{
     color: #131318;
@@ -466,6 +467,7 @@ padding: 40px  40px ;
 .section-7-video{
     object-fit: cover;
     box-sizing: border-box;
+    /* border: 1px solid green; */
    
 }
 .section-7-video .video{
@@ -475,10 +477,12 @@ padding: 40px  40px ;
 
 
 
+/* section-8 styles */
 .section-8 {
     width: 100%;
     margin-top: 60px;
-
+    /* height: 500px; */
+    /* border: 2px solid tomato; */
     display: flex;
     gap: 5%;
 }
@@ -522,6 +526,7 @@ padding: 40px  40px ;
 
 .section-8-image {
     width: 50%;
+    /* border: 1px solid green; */
     position: relative;
 
 }
@@ -551,14 +556,14 @@ padding: 40px  40px ;
 
 
 
-
+/* footer section styles */
 footer {
     margin: 0 auto;
     margin-top: 60px;
     text-align: center;
     max-width: 1350px;
     height: 500px;
-
+    /* border: 2px solid red; */
     background: rgba(19, 19, 24, 0.05);
 }
 
@@ -580,4 +585,4 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 80%;
-} */
+}
