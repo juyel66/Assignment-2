@@ -252,6 +252,7 @@ line-height: normal;
     justify-content: space-between;
     margin-left: 130px;
     margin-top: 60px;
+    gap: 20px;
 }
 
 .card-1 {
@@ -265,6 +266,7 @@ line-height: normal;
     margin-right: 120px;
     border-radius: 15px;
     padding: 15px;
+    width: 450px;
 }
 
 .down-card {
@@ -273,21 +275,6 @@ line-height: normal;
     margin: 40px 450px;
     border-radius: 15px;
     padding: 15px;
-}
-
-.discounts-part {
-    text-align: center;
-    margin-top: 150px;
-
-
-
-    width: 375px;
-    height: 200px;
-    margin-top: 70px;
-    margin-left: 160px;
-
-    
-    
 }
 
 
@@ -323,6 +310,9 @@ line-height: normal;
     font-weight: 700;
     line-height: 26px;
     width: 518px;
+}
+.simple-perfect-place{
+    margin-right: 130px;
 }
 
 
