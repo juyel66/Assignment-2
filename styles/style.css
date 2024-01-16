@@ -85,7 +85,7 @@ div a {
 /* main-part-start */
 
 
-.banner-section{
+.banner-section {
     background-image: url("travellll.png");
     background-repeat: no-repeat;
     height: 500px;
@@ -93,18 +93,57 @@ div a {
     margin-left: 120px;
 }
 
-.input-section{
+.input-section {
     text-align: center;
-}
-.input-fil{
-    display: inline-flex;
-    /* align-items: flex-start; */
-    gap: 20px;
+
 }
 
-.banner-title{
+.input-fil {
+    display: inline-flex;
+    /* align-items: flex-start; */
+
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-field {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+
+
+
+
+
+
+
+.banner-title {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-color-description1 {
+    color: white;
+
 }
 
 
@@ -384,15 +423,17 @@ div a {
 /* main part :end */
 
 
-.footer-section{
+.footer-section {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     margin-top: 50px;
 }
-.copyright{
+
+.copyright {
     margin-top: 30px;
 }
-.our-travel-footer{
+
+.our-travel-footer {
     color: #131318;
 
     font-family: Mulish;
