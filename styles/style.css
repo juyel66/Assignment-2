@@ -216,9 +216,10 @@ line-height: normal;
 
 .destination {
     text-align: center;
-    /* margin-right: 120px; */
-    margin-top: 0px;
-    border: 2px solid red;
+    background-color: #ffffff33;
+    margin: 20px 350px;
+    border-radius: 15px;
+
 }
 
 .main-destination {
@@ -228,6 +229,32 @@ line-height: normal;
 
 .ros-destination {
     margin-top: 60px;
+}
+
+
+
+
+
+.section-8-image {
+    width: 50%;
+    /* border: 1px solid green; */
+    position: relative;
+
+}
+
+.tringle {
+    position: absolute;
+   bottom: 50px;
+   right: 10px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 280px;
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+    transform: rotate(-20deg);
+    gap: 5px;
+    margin-left: 20px;
 }
 
 

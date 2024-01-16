@@ -3,12 +3,13 @@
         flex-direction: column;
     }
 
-    body {
+    /* body {
         border: 5px solid red;
-        /* max-width: 350px; */
+        max-width: 500px;
+
         
 
-    }
+    } */
 
 
     .banner-section {
@@ -103,6 +104,7 @@
         width: 355px;
         height: 200px;
         margin-top: 20px;
+        margin-left: 100px;
 
 
     }
@@ -156,6 +158,9 @@
     .down-card {
         max-width: 350px;
         margin-left: 130px;
+        height: 300px;
+        width: 300px;
+
     }
 
     .discounts-part {
